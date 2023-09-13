@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.what2watch.Controllers.FinalRatingController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/ShadedBG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="actingLabel" alignment="CENTER" layoutX="1100.0" layoutY="156.0" prefHeight="86.0" prefWidth="537.0" text="Acting: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="visualsLabel" alignment="CENTER" layoutX="1100.0" layoutY="256.0" prefHeight="86.0" prefWidth="537.0" text="Visuals: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="storyLabel" alignment="CENTER" layoutX="1100.0" layoutY="356.0" prefHeight="86.0" prefWidth="537.0" text="Story: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="climaxLabel" alignment="CENTER" layoutX="1100.0" layoutY="456.0" prefHeight="86.0" prefWidth="537.0" text="Climax: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="pacingLabel" alignment="CENTER" layoutX="1100.0" layoutY="556.0" prefHeight="86.0" prefWidth="537.0" text="Pacing: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="endingLabel" alignment="CENTER" layoutX="1100.0" layoutY="656.0" prefHeight="86.0" prefWidth="537.0" text="Ending: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalRatingLabel" alignment="CENTER" layoutX="1062.0" layoutY="756.0" prefHeight="99.0" prefWidth="605.0" text="Final Rating: 3.5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="80.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="posterImageView" fitHeight="372.0" fitWidth="277.0" layoutX="470.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/NoPoster.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="titleLabel" alignment="CENTER" layoutX="164.0" layoutY="550.0" prefHeight="86.0" prefWidth="866.0" text="Avatar: The Way of Water" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeLabel" alignment="CENTER" layoutX="164.0" layoutY="650.0" prefHeight="86.0" prefWidth="866.0" text="2023" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="releaseLabel" alignment="CENTER" layoutX="164.0" layoutY="750.0" prefHeight="86.0" prefWidth="866.0" text="Movie" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" layoutX="240.0" layoutY="979.0" prefHeight="57.0" prefWidth="380.0" style="-fx-opacity: 0;" text="Cybourg47" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="116.0" prefWidth="124.0" styleClass="transparent" stylesheets="@../css/Style.css">
+         <graphic>
+            <ImageView fitHeight="110.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../W2W Images/logos/BackArrowWhite125x125.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="addButton" layoutX="840.0" layoutY="922.0" mnemonicParsing="false" onAction="#addRatingAction" prefHeight="121.0" prefWidth="240.0" styleClass="transparent" stylesheets="@../css/Style.css" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Button>
+      <Label fx:id="posterUrlLabel" layoutX="150.0" layoutY="323.0" style="-fx-opacity: 0;" text="Label" />
+   </children>
+</Pane>

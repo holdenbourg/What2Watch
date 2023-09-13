@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="196.0" prefWidth="1624.0" styleClass="transparent" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.what2watch.Controllers.FilmItemController">
+   <children>
+      <BorderPane prefHeight="334.0" prefWidth="175.0">
+         <center>
+            <ImageView fx:id="posterImageView" fitHeight="334.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../W2W Images/Posters/aotPoster.jpg" />
+               </image>
+            </ImageView>
+         </center>
+         <HBox.margin>
+            <Insets left="20.0" />
+         </HBox.margin>
+      </BorderPane>
+      <Label fx:id="usernameLabel" prefHeight="17.0" prefWidth="0.0" style="-fx-opacity: 0;" />
+      <Label fx:id="posterUrlLabel" layoutX="205.0" layoutY="10.0" prefHeight="17.0" prefWidth="0.0" style="-fx-opacity: 0;" />
+      <Label fx:id="titleLabel" alignment="CENTER" prefHeight="248.0" prefWidth="654.0" styleClass="text" stylesheets="@../css/Style.css" text="Attack On Titan" textFill="WHITE">
+         <HBox.margin>
+            <Insets left="45.0" />
+         </HBox.margin>
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="releaseDateLabel" alignment="CENTER" prefHeight="248.0" prefWidth="331.0" styleClass="text" stylesheets="@../css/Style.css" text="09/28/2013" textFill="WHITE">
+         <HBox.margin>
+            <Insets left="55.0" />
+         </HBox.margin>
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeLabel" alignment="CENTER" prefHeight="248.0" prefWidth="217.0" text="Movie" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="40.0" />
+         </HBox.margin>
+      </Label>
+      <BorderPane prefHeight="248.0" prefWidth="104.0">
+         <center>
+            <Button fx:id="addButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addButtonAction" prefHeight="63.0" prefWidth="80.0" styleClass="transparent" stylesheets="@../css/Style.css" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../W2W Images/logos/PlusIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </Button>
+         </center>
+         <HBox.margin>
+            <Insets right="10.0" />
+         </HBox.margin>
+      </BorderPane>
+   </children>
+</HBox>

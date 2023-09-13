@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1028.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.what2watch.Controllers.SignUpController">
+   <children>
+      <ImageView fx:id="signUpPageImageView" fitHeight="790.0" fitWidth="1028.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/SignUpPage.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="firstNameTextField" layoutX="255.0" layoutY="294.5" prefHeight="40.0" prefWidth="508.0" promptText="..." style="-fx-background-color: 000000; -fx-text-fill: white;">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastNameTextField" layoutX="255.0" layoutY="366.0" prefHeight="40.0" prefWidth="508.0" promptText="..." style="-fx-background-color: 000000; -fx-text-fill: white;">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="usernameTextField" layoutX="255.0" layoutY="437.0" prefHeight="40.0" prefWidth="508.0" promptText="..." style="-fx-background-color: 000000; -fx-text-fill: white;">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordTextField" layoutX="253.0" layoutY="509.0" prefHeight="40.0" prefWidth="508.0" promptText="..." style="-fx-background-color: 000000; -fx-text-fill: white;">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmPasswordTextField" layoutX="253.0" layoutY="582.0" prefHeight="40.0" prefWidth="508.0" promptText="..." style="-fx-background-color: 000000; -fx-text-fill: white;">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="signUpButton" layoutX="263.0" layoutY="627.0" mnemonicParsing="false" onAction="#signUpButtonAction" prefHeight="35.0" prefWidth="502.0" style="-fx-background-color: 000000; -fx-border-color: ffffff;" text="Sign Up" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="263.0" layoutY="680.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="35.0" prefWidth="502.0" style="-fx-background-color: 000000; -fx-border-color: ffffff;" text="Cancel" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="signUpOverheadLabel" alignment="CENTER" layoutX="118.0" layoutY="218.0" prefHeight="55.0" prefWidth="792.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

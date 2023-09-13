@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.what2watch.Controllers.MoviesController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/MoviesPage.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="posterImageView" fitHeight="406.0" fitWidth="288.0" layoutX="54.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/Posters/deathnotePoster.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="titleLabel" layoutX="375.0" layoutY="170.0" prefHeight="71.0" prefWidth="688.0" text="Avatar: The Way of Water" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeLabel" layoutX="375.0" layoutY="305.0" prefHeight="71.0" prefWidth="688.0" text="TV Show" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="releaseDateLabel" layoutX="375.0" layoutY="365.0" prefHeight="71.0" prefWidth="688.0" text="2008" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="ratingLabel" layoutX="375.0" layoutY="425.0" maxWidth="688.0" prefHeight="71.0" text="Rated: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateRatedLabel" layoutX="375.0" layoutY="485.0" maxWidth="688.0" prefHeight="71.0" text="Date Rated: 10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="actingLabel" layoutX="55.0" layoutY="560.0" prefHeight="91.0" prefWidth="304.0" text="Acting:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="visualsLabel" layoutX="55.0" layoutY="625.0" prefHeight="91.0" prefWidth="304.0" text="Visuals:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="pacingLabel" layoutX="55.0" layoutY="690.0" prefHeight="91.0" prefWidth="304.0" text="Pacing:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="storyLabel" layoutX="55.0" layoutY="755.0" prefHeight="91.0" prefWidth="304.0" text="Story:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="climaxLabel" layoutX="55.0" layoutY="820.0" prefHeight="91.0" prefWidth="304.0" text="Climax:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="endingLabel" layoutX="55.0" layoutY="885.0" prefHeight="91.0" prefWidth="304.0" text="Ending:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="actingRatingLabel" layoutX="290.0" layoutY="560.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="visualsRatingLabel" layoutX="290.0" layoutY="625.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="pacingRatingLabel" layoutX="290.0" layoutY="690.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="storyRatingLabel" layoutX="290.0" layoutY="755.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="climaxRatingLabel" layoutX="290.0" layoutY="820.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="endingRatingLabel" layoutX="290.0" layoutY="885.0" prefHeight="91.0" prefWidth="70.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="editButton" layoutX="28.0" layoutY="970.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="120.0" styleClass="transparent" stylesheets="@../css/Style.css" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="removeButton" layoutX="182.0" layoutY="970.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="190.0" styleClass="transparent" stylesheets="@../css/Style.css" text="Remove" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Button>
+      <VBox layoutX="1100.0" layoutY="140.0" prefHeight="904.0" prefWidth="718.0">
+         <children>
+            <ScrollPane prefHeight="904.0" prefWidth="732.0" styleClass="transparent" stylesheets="@../css/Style.css">
+               <content>
+                  <VBox fx:id="filmLayoutVBox" prefHeight="904.0" prefWidth="732.0" spacing="10.0" styleClass="transparent" stylesheets="@../css/Style.css" />
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <TextField layoutX="1090.0" layoutY="50.0" prefHeight="77.0" prefWidth="702.0" promptText="Search Rated Movies..." stylesheets="@../css/Style.css">
+         <font>
+            <Font name="Impact" size="35.0" />
+         </font>
+         <styleClass>
+            <String fx:value="transparent" />
+            <String fx:value="text-field-default" />
+         </styleClass>
+      </TextField>
+      <Label fx:id="usernameLabel" layoutX="600.0" layoutY="727.0" style="-fx-opacity: 0;" text="Label" textFill="WHITE">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

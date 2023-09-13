@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.what2watch.Controllers.RateMovieController">
+   <children>
+      <ImageView fx:id="backgroundImageView" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../W2W Images/ShadedBG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="headerLabel" alignment="CENTER" layoutX="132.0" layoutY="40.0" prefHeight="100.0" prefWidth="1664.0" styleClass="text" text="Rate &quot;Avatar: The Way of Water&quot; On The Following Aspects" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="warningLabel" alignment="CENTER" layoutX="70.0" layoutY="135.0" prefHeight="100.0" prefWidth="1800.0" styleClass="text" text="You must select one from each category" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="actingLabel" alignment="CENTER" layoutX="62.0" layoutY="215.0" prefHeight="100.0" prefWidth="900.0" styleClass="text" text="Acting" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="visualsLabel" alignment="CENTER" layoutX="962.0" layoutY="215.0" prefHeight="100.0" prefWidth="900.0" styleClass="text" text="Visuals" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="storyLabel" alignment="CENTER" layoutX="62.0" layoutY="415.0" prefHeight="100.0" prefWidth="900.0" styleClass="text" text="Story" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="climaxLabel" alignment="CENTER" layoutX="962.0" layoutY="415.0" prefHeight="100.0" prefWidth="900.0" styleClass="text" text="Climax" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="pacingLabel" alignment="CENTER" layoutX="62.0" layoutY="615.0" prefHeight="100.0" prefWidth="900.0" styleClass="text" text="Pacing" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="endingLabel" alignment="CENTER" layoutX="962.0" layoutY="615.0" prefHeight="100.0" prefWidth="900.0" text="Ending" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="actingOneLabel" layoutX="255.0" layoutY="320.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingTwoLabel" layoutX="255.0" layoutY="320.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingThreeLabel" layoutX="255.0" layoutY="320.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingFourLabel" layoutX="255.0" layoutY="320.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingFiveLabel" layoutX="255.0" layoutY="320.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingSixLabel" layoutX="255.0" layoutY="320.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingSevenLabel" layoutX="255.0" layoutY="320.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="actingEightLabel" layoutX="255.0" layoutY="320.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingNineLabel" layoutX="255.0" layoutY="320.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="actingTenLabel" layoutX="255.0" layoutY="320.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="actingOneButton" layoutX="255.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingOneButtonAction" prefHeight="96.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingTwoButton" layoutX="295.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingTwoButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingThreeButton" layoutX="348.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingFourButton" layoutX="399.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingFourButtonAction" prefHeight="84.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingFiveButton" layoutX="455.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingFiveButtonAction" prefHeight="84.0" prefWidth="56.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingSixButton" layoutX="509.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingSixButtonAction" prefHeight="88.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingSevenButton" layoutX="565.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingSevenButtonAction" prefHeight="80.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingEightButton" layoutX="607.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingEightButtonAction" prefHeight="80.0" prefWidth="56.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingNineButton" layoutX="661.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingNineButtonAction" prefHeight="78.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="actingTenButton" layoutX="717.0" layoutY="320.0" mnemonicParsing="false" onAction="#actingTenButtonAction" prefHeight="82.0" prefWidth="83.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="storyOneLabel" layoutX="255.0" layoutY="520.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyTwoLabel" layoutX="255.0" layoutY="520.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyThreeLabel" layoutX="255.0" layoutY="520.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyFourLabel" layoutX="255.0" layoutY="520.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyFiveLabel" layoutX="255.0" layoutY="520.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storySixLabel" layoutX="255.0" layoutY="520.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storySevenLabel" layoutX="255.0" layoutY="520.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="storyEightLabel" layoutX="255.0" layoutY="520.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyNineLabel" layoutX="255.0" layoutY="520.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="storyTenLabel" layoutX="255.0" layoutY="520.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="storyOneButton" layoutX="255.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyOneButtonAction" prefHeight="96.0" prefWidth="42.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyTwoButton" layoutX="295.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyTwoButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyThreeButton" layoutX="347.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyFourButton" layoutX="399.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyFourButtonAction" prefHeight="84.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyFiveButton" layoutX="455.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyFiveButtonAction" prefHeight="84.0" prefWidth="56.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storySixButton" layoutX="509.0" layoutY="520.0" mnemonicParsing="false" onAction="#storySixButtonAction" prefHeight="88.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storySevenButton" layoutX="565.0" layoutY="520.0" mnemonicParsing="false" onAction="#storySevenButtonAction" prefHeight="80.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyEightButton" layoutX="605.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyEightButtonAction" prefHeight="80.0" prefWidth="58.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyNineButton" layoutX="661.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyNineButtonAction" prefHeight="78.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="storyTenButton" layoutX="717.0" layoutY="520.0" mnemonicParsing="false" onAction="#storyTenButtonAction" prefHeight="82.0" prefWidth="83.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="pacingOneLabel" layoutX="255.0" layoutY="720.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingTwoLabel" layoutX="255.0" layoutY="720.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingThreeLabel" layoutX="255.0" layoutY="720.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingFourLabel" layoutX="255.0" layoutY="720.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingFiveLabel" layoutX="255.0" layoutY="720.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingSixLabel" layoutX="255.0" layoutY="720.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingSevenLabel" layoutX="255.0" layoutY="720.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="pacingEightLabel" layoutX="255.0" layoutY="720.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingNineLabel" layoutX="255.0" layoutY="720.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="pacingTenLabel" layoutX="255.0" layoutY="720.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="pacingOneButton" layoutX="255.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingOneButtonAction" prefHeight="96.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingTwoButton" layoutX="297.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingTwoButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingThreeButton" layoutX="347.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingFourButton" layoutX="401.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingFourButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingFiveButton" layoutX="457.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingFiveButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingSixButton" layoutX="509.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingSixButtonAction" prefHeight="88.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingSevenButton" layoutX="559.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingSevenButtonAction" prefHeight="80.0" prefWidth="49.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingEightButton" layoutX="607.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingEightButtonAction" prefHeight="80.0" prefWidth="56.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingNineButton" layoutX="661.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingNineButtonAction" prefHeight="78.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="pacingTenButton" layoutX="717.0" layoutY="720.0" mnemonicParsing="false" onAction="#pacingTenButtonAction" prefHeight="82.0" prefWidth="85.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="visualsOneLabel" layoutX="1150.0" layoutY="320.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsTwoLabel" layoutX="1150.0" layoutY="320.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsThreeLabel" layoutX="1150.0" layoutY="320.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsFourLabel" layoutX="1150.0" layoutY="320.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsFiveLabel" layoutX="1150.0" layoutY="320.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsSixLabel" layoutX="1150.0" layoutY="320.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsSevenLabel" layoutX="1150.0" layoutY="320.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="visualsEightLabel" layoutX="1150.0" layoutY="320.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsNineLabel" layoutX="1150.0" layoutY="320.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="visualsTenLabel" layoutX="1150.0" layoutY="320.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="visualsOneButton" layoutX="1150.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsOneButtonAction" prefHeight="96.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsTwoButton" layoutX="1192.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsTwoButtonAction" prefHeight="84.0" prefWidth="51.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsThreeButton" layoutX="1242.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsFourButton" layoutX="1296.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsFourButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsFiveButton" layoutX="1352.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsFiveButtonAction" prefHeight="84.0" prefWidth="52.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsSixButton" layoutX="1404.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsSixButtonAction" prefHeight="88.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsSevenButton" layoutX="1460.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsSevenButtonAction" prefHeight="80.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsEightButton" layoutX="1502.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsEightButtonAction" prefHeight="80.0" prefWidth="52.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsNineButton" layoutX="1556.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsNineButtonAction" prefHeight="78.0" prefWidth="57.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="visualsTenButton" layoutX="1612.0" layoutY="320.0" mnemonicParsing="false" onAction="#visualsTenButtonAction" prefHeight="82.0" prefWidth="85.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="climaxOneLabel" layoutX="1150.0" layoutY="520.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxTwoLabel" layoutX="1150.0" layoutY="520.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxThreeLabel" layoutX="1150.0" layoutY="520.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxFourLabel" layoutX="1150.0" layoutY="520.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxFiveLabel" layoutX="1150.0" layoutY="520.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxSixLabel" layoutX="1150.0" layoutY="520.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxSevenLabel" layoutX="1150.0" layoutY="520.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="climaxEightLabel" layoutX="1150.0" layoutY="520.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxNineLabel" layoutX="1150.0" layoutY="520.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="climaxTenLabel" layoutX="1150.0" layoutY="520.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="climaxOneButton" layoutX="1150.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxOneButtonAction" prefHeight="96.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxTwoButton" layoutX="1194.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxTwoButtonAction" prefHeight="84.0" prefWidth="51.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxThreeButton" layoutX="1242.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxFourButton" layoutX="1298.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxFourButtonAction" prefHeight="84.0" prefWidth="51.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxFiveButton" layoutX="1352.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxFiveButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxSixButton" layoutX="1404.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxSixButtonAction" prefHeight="88.0" prefWidth="52.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxSevenButton" layoutX="1462.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxSevenButtonAction" prefHeight="80.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxEightButton" layoutX="1502.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxEightButtonAction" prefHeight="80.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxNineButton" layoutX="1558.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxNineButtonAction" prefHeight="78.0" prefWidth="55.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="climaxTenButton" layoutX="1614.0" layoutY="520.0" mnemonicParsing="false" onAction="#climaxTenButtonAction" prefHeight="82.0" prefWidth="83.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="endingOneLabel" layoutX="1150.0" layoutY="720.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingTwoLabel" layoutX="1150.0" layoutY="720.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingThreeLabel" layoutX="1150.0" layoutY="720.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingFourLabel" layoutX="1150.0" layoutY="720.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="155.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingFiveLabel" layoutX="1150.0" layoutY="720.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="210.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingSixLabel" layoutX="1150.0" layoutY="720.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="262.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingSevenLabel" layoutX="1150.0" layoutY="720.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="315.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="endingEightLabel" layoutX="1150.0" layoutY="720.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="360.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingNineLabel" layoutX="1150.0" layoutY="720.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="415.0" />
+         </padding>
+      </Label>
+      <Label fx:id="endingTenLabel" layoutX="1150.0" layoutY="720.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="70.0" />
+         </font>
+         <padding>
+            <Insets left="472.0" />
+         </padding>
+      </Label>
+      <Button fx:id="endingOneButton" layoutX="1150.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingOneButtonAction" prefHeight="96.0" prefWidth="40.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingTwoButton" layoutX="1192.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingTwoButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingThreeButton" layoutX="1242.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingThreeButtonAction" prefHeight="84.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingFourButton" layoutX="1296.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingFourButtonAction" prefHeight="84.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingFiveButton" layoutX="1350.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingFiveButtonAction" prefHeight="84.0" prefWidth="56.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingSixButton" layoutX="1404.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingSixButtonAction" prefHeight="88.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingSevenButton" layoutX="1460.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingSevenButtonAction" prefHeight="80.0" prefWidth="43.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingEightButton" layoutX="1504.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingEightButtonAction" prefHeight="80.0" prefWidth="54.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingNineButton" layoutX="1560.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingNineButtonAction" prefHeight="78.0" prefWidth="53.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="endingTenButton" layoutX="1614.0" layoutY="720.0" mnemonicParsing="false" onAction="#endingTenButtonAction" prefHeight="82.0" prefWidth="83.0" styleClass="transparent" stylesheets="@../css/Style.css" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="addRatingButton" layoutX="708.0" layoutY="875.0" mnemonicParsing="false" onAction="#addRatingButtonAction" prefHeight="73.0" prefWidth="488.0" style="-fx-background-color: 000000; -fx-border-color: ffffff;" text="Rate" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="116.0" prefWidth="124.0" styleClass="transparent" stylesheets="@../css/Style.css">
+         <graphic>
+            <ImageView fitHeight="110.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../W2W Images/logos/BackArrowWhite125x125.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="usernameLabel" layoutX="240.0" layoutY="979.0" prefHeight="57.0" prefWidth="380.0" style="-fx-opacity: 0;" text="Cybourg47" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="posterImageView" fitHeight="148.0" fitWidth="132.0" layoutX="36.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0;">
+         <image>
+            <Image url="@../W2W Images/NoPoster.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="releaseLabel" layoutX="87.0" layoutY="474.0" style="-fx-opacity: 0;" text="Release" />
+      <Label fx:id="typeLabel" layoutX="112.0" layoutY="622.0" prefHeight="21.0" prefWidth="28.0" style="-fx-opacity: 0;" text="Type" />
+      <Label fx:id="posterUrlLabel" layoutX="122.0" layoutY="632.0" prefHeight="21.0" prefWidth="28.0" style="-fx-opacity: 0;" text="Type" />
+   </children>
+</Pane>
