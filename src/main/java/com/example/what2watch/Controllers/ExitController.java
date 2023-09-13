@@ -22,12 +22,7 @@ public class ExitController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        /*
-        File ExitPageFile = new File("C:\\Users\\holde\\jProjects\\What2Watch\\src\\main\\resources\\Images\\ExitPage.jpg");
-        Image ExitPage = new Image(ExitPageFile.toURI().toString());
-        exitPageImageView.setImage(ExitPage);
 
-         */
     }
 
     public void yesButtonAction(ActionEvent event) {
